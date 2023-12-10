@@ -79,14 +79,6 @@ gallery.innerHTML = images.reduce((html, image) => html + `<li class="gallery-it
     </li>`, '');
 
 
-
-
-const galleryItem = document.querySelector('gallery-item');
-const galleryLink = document.querySelector('gallery-link');
-const galleryImage = document.querySelector('gallery-image');
-
-
-
 let instance = null;
 
 gallery.addEventListener('click', (event) => {
